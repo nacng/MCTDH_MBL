@@ -1,6 +1,6 @@
 Folder structure:
-|- L
-   |- gamma
+
+size L -> coupling gamma
 
 Data structure:
 First row: 1st element is number of averages of the observable. All other entries are irrelevant
@@ -15,10 +15,17 @@ where the standard error of the mean is given by
 with N being the total number of runs (first element of each .csv file)
 
 Observables:
+
 MIavg		Mutual information between two contiguous halves of the spin chain. Plotted using log2, not ln.
+
 savg		Entanglement entropy between half of the spins and the rest of the system. Plotted using log2, not ln.
+
 qdsavg		Entanglement entropy between the qudit and the full spin chain. Computed using log2, not ln.
+
 qdVar		Qudit variance
+
 qdWF		Occupations of the different states of the qudit
+
 sgQ		Spin glass order parameter
+
 sz		Average magnetization of each spin
