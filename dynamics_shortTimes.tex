@@ -1,0 +1,29 @@
+\documentclass{article}
+\usepackage{graphicx}
+\usepackage{floatrow}
+\usepackage{subfig}
+\usepackage{stackengine}
+\usepackage{caption}
+
+\begin{document}
+\thispagestyle{empty}
+
+\begin{figure}
+  \hspace*{-90pt}
+  \topinset{
+    \includegraphics[scale=0.28]{qInset_int.pdf}
+  }{
+                                        \topinset{
+                                          \includegraphics[scale=0.28]{qInset_weak.pdf}
+            	}{
+            		\includegraphics[scale=0.495,trim={10pt 0 0 0}]{dynamics_wi.pdf}
+                      }{10pt}{-14pt}
+                      }{108pt}{-14pt}
+\end{figure}
+
+\end{document}
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:
